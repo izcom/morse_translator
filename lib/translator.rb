@@ -73,7 +73,7 @@ class Translator
         if temp == morse
           total_word += letter
         end
-        @morse_count = code.index(' ') + 1
+        @morse_count += 1
         if @morse_count == code.length
           morse_over = true
         end
